@@ -1,0 +1,11 @@
+[project]
+name = "doctor-patient-restructured"
+version = "0.1.0"
+description = "symptoms are presented to know the disease and doctor responds to it"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.115.6",
+    "langchain-google-genai>=2.0.9",
+    "python-dotenv>=1.0.1",
+]
